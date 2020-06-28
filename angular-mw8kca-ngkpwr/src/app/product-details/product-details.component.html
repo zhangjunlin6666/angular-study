@@ -1,0 +1,18 @@
+<!--
+ * @Author: jackson
+ * @Date: 2020-06-15 11:44:07
+ * @LastEditors: jackson
+ * @LastEditTime: 2020-06-15 15:10:49
+--> 
+<p>
+  Product Details
+</p>
+
+<!-- ngif一直不好使 -->
+<!-- <div *ngIf="product"> -->
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price }}</h4>
+  <p>{{ product.description }}</p>
+
+  <button (click)="addToCart(product)">Buy</button>
+<!-- </div> -->
